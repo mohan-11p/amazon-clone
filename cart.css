@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 90px;
+    width: 100vw;
+    background-color: rgb(197, 243, 206);
+}
+.bigbox{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(228, 224, 224);
+    display: flex;
+    gap: 20px;
+}
+.kasu{
+    height: 320px;
+    width: 1210px;
+    /*background-color: aquamarine;*/
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.mainboX{
+    height: 300px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+}
+.mainboX1{
+    margin-top: 40px;
+    height: 100px;
+    width: 1200px;
+    background-color: white;
+    flex-direction: column;
+}
+.poj{
+    margin-top: 20px;
+}
+.mainboX img{
+    height: 280px;
+    width: 420px;
+    margin-left: 10px;
+}
+.singin{
+    width: 170px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+.nsing{
+    width: 110px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.option{
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+    /*gap: 1px;*/
+}
+.alcol{
+    margin-top: 70px;
+}
+.description{
+    margin-left: 40px;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.old{
+    color: rgb(68, 138, 138);
+}
+.atc{
+    height: 1100px;
+    width: 300px;
+    background-color: white;
+    padding: 8px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.smallimg1{
+    height: 130px;
+    width: 100%;
+    /*background-color: pink;*/
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.img1{
+    height: 100%;
+    width: 40%;
+}
+.img1 img{
+    height: 100%;
+    width: 120px;
+}
+.INFORMATION1{
+    height: 100%;
+    width: 60%;
+    /*background-color: rgb(210, 141, 141);*/
+}
+.cart1{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallimg2{
+    height: 130px;
+    width: 100%;
+    /*background-color: pink;
+    margin-top: 10px;*/
+    display: flex;
+    margin-bottom: 10px;
+}
+.img2{
+    height: 100%;
+    width: 40%;
+}
+.img2 img{
+    height: 100%;
+    width: 120px;
+}
+.INFORMATION2{
+    height: 100%;
+    width: 60%;
+    /*background-color: rgb(210, 141, 141);*/
+}
+.cart2{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallimg3{
+    height: 130px;
+    width: 100%;
+    /*background-color: pink;
+    margin-top: 10px;*/
+    display: flex;
+    margin-bottom: 10px;
+}
+.img3{
+    height: 100%;
+    width: 40%;
+}
+.img3 img{
+    height: 100%;
+    width: 120px;
+}
+.INFORMATION3{
+    height: 100%;
+    width: 60%;
+    /*background-color: rgb(210, 141, 141);*/
+}
+.cart3{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallimg4{
+    height: 130px;
+    width: 100%;
+    /*background-color: pink;
+    margin-top: 10px;*/
+    display: flex;
+    margin-bottom: 10px;
+}
+.img4{
+    height: 100%;
+    width: 40%;
+}
+.img4 img{
+    height: 100%;
+    width: 120px;
+}
+.INFORMATION4{
+    height: 100%;
+    width: 60%;
+    /*background-color: rgb(210, 141, 141);*/
+}
+.cart4{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moko{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}

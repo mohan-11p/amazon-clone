@@ -1,0 +1,468 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.nav{
+    height:60px;
+    width: 100%;
+    display:flex;
+    padding: 10px;
+    margin:0 auto;
+    background-color: #131921;
+
+}
+
+
+.logo{
+    height: 100%;
+    width:210px;
+    background-color: #131921;
+    padding-top: 10px;
+}
+
+.logo:hover {
+    border: 1px white;
+    cursor: pointer;
+}
+.location{
+    height: 100%;
+    width:230px;
+    font-size: 12px;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.location:hover {
+    border: 1px white;
+    cursor: pointer;
+}
+.icon{
+    height: 100%;
+    width:30px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color:  #131921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    border: 1px;
+    height:50px;
+    width: 600px;
+    background-color:  #131921;
+    color: rgb(241, 208, 18);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+.search:hover {
+    cursor: pointer;
+}
+.all{
+    height: 25px;
+    width: 30px;
+    color: azure;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+
+}
+input[type="text"]{
+    height: 32px;
+    width: 400px;
+    border-radius: 8px 0px 0px 8px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+
+}
+
+
+.sricon{
+    height:30px;
+    width: 40px;
+    background-color:#ff9900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 0px 8px 8px 0px; */
+}
+.lang{
+    height:55px;
+    width: 70px;
+    background-color:  #131921;
+    color: azure;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: right;
+    justify-content: center;
+    gap:4px;
+    padding-top: 13px;
+}
+
+.lang:hover {
+    cursor: pointer;
+}
+.letter{
+    font-size:12px;
+}
+.account{
+        height:100%;
+        width:170px;
+        color: aliceblue;
+        background-color:  #131921;
+        padding: 5px;
+        flex-direction: column;
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        
+        padding-left: 12px;
+    
+
+}
+
+.account:hover {
+    cursor: pointer;
+}
+.return{
+    height:100%;
+    width:130px;
+    color: aliceblue;
+    background-color:   #131921;
+    padding: 5px;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.return:hover {
+    cursor: pointer;
+}
+
+.account:hover {
+    cursor: pointer;
+}
+.cart{
+    height:100%;
+    width:80px;
+    color:aliceblue;
+    background-color: #131921;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cart.account:hover {
+    cursor: pointer;
+}
+.clogo{
+    font-size: 25px;
+    align-items: left;
+    margin-top: 5px;
+    
+}
+
+
+.text{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    vertical-align: bottom;
+    font-size:15px;
+    margin-top: 13px; 
+}
+
+.container{
+    height: 30px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+.f{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.se{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.t{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.fo{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.fi{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.si
+{
+    height: 30px;
+    width: 10%;
+    background-color:#232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.sev{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.ei{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.n{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.te{
+    height: 30px;
+    width: 10%;
+    background-color: #232f3e;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.line{
+    height: 7px;
+    width: 100%;
+    background-color:rgb(196,212,231);
+}
+.Box{
+    height:fit-content;
+    width:100%;
+    background: rgb(190,213,240);
+    background: linear-gradient(180deg, rgba(190,213,240,1) 1%, rgba(187,230,246,0.06486344537815125) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 250px;
+    padding-bottom: 70px;
+    
+
+}
+.innerbox{
+    height:350px;
+    width:330px;
+    background-color: rgb(252, 254, 255);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cardHeading{
+    height:50px;
+    width: 250px;
+    background-color:white;
+    gap:200px;
+    padding: 10px;
+
+}
+.smallbox{
+    height:100px;
+    width:100px;
+    background-color: rgb(250, 252, 252);
+    display: flex;
+
+}
+.box3{
+    height:200px;
+    width:100%;
+    background-color: rgb(252, 252, 252);
+    /* display: flex; */
+    /* gap: 10px; */
+}
+.mbox{
+    height:200px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 50px;
+    
+}
+.sbox3{
+    height:150px;
+    width:100%;
+    background-color: rgb(254, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+
+}
+.headbox{
+    height: 40px;
+    width:100%;
+    background-color: rgb(255, 255, 255); 
+
+}
+.boxx{
+    height: 200px;
+    width:100%;
+    background-color: rgb(250, 248, 245);
+    display: flex;
+    gap:15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.box4{
+    height:180px;
+    width:150px;
+    background-color: rgb(153, 131, 97);
+}
+.footer{
+    height:450px;
+    width:100%;
+    background-color: rgb(6, 21, 41);
+    
+}
+.back{
+    height:50px;
+    width:100%;
+    background-color:rgb(37, 114, 150);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.boc{
+    height:300px;
+    width:80%;
+    background-color:rgb(6, 21, 41); 
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.bocs{
+    height:250px;
+    width:30%;
+    background-color:rgb(6, 21, 41);
+    padding-left: 30px;
+}
+
+
+.lbox{
+    height:100px;
+    width:50%;
+    background-color: rgb(6, 21, 41);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    margin-left: 250px;
+
+}
+log{
+    gap:20px;
+}
+.lan{
+    height:20px;
+    width:85px;
+    border:1px solid rgb(235, 230, 230);
+    margin-left: 65px;
+    margin-bottom: 18px;
+    gap:20px;
+}
+.con{
+    height:20px;
+    width:70px;
+    border:1px solid rgb(236, 233, 233);
+    margin-left: 8px;
+    margin-bottom: 18px;
+
+}
